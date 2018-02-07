@@ -153,12 +153,17 @@ a:link {
   fieldset { display: table-cell; }
 }
 blockquote {
-	margin: 40px 0;
+	margin: 5px 0;
 }
 blockquote p {
 	font-family: 'Georgia', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
-	font-style: italic;
-	font-size: 15px;
+	font-size: 14px;
+}
+blockquote span {
+	font-family: 'Georgia', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+        font-size: 15px;
+	color: #000;
+	margin: 0 30px;
 }
 blockquote footer {
 	background-color: transparent;
@@ -3323,6 +3328,23 @@ footer .footer_bottom {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
+a:link {
+	text-decoration: underline; 
+	color:#151515; 
+	font-size: 18px; 
+	font-family: 微软雅黑;
+}
+a:hover {
+	text-decoration: none; 
+	color:#BEBEBE; 
+	font-size: 18px;
+}
+a:active {
+	text-decoration: blink; 
+	color: #151515;
+}
+
 /* Import the font file with the icons in it */
 @font-face { font-family: 'icons'; src:  url('../fonts/icons.woff') format('woff'); font-weight: normal; font-style: normal; }
 /* Apply these base styles to all icons */
