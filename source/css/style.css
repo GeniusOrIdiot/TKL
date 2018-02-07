@@ -3330,13 +3330,13 @@ footer .footer_bottom {
 }
 
 a:link {
-	text-decoration: underline; 
+	text-decoration: none; 
 	color:#151515; 
 	font-size: 18px; 
 	font-family: 微软雅黑;
 }
 a:hover {
-	text-decoration: none; 
+	text-decoration: underline; 
 	color:#BEBEBE; 
 	font-size: 18px;
 }
