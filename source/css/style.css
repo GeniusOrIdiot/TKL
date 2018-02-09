@@ -3299,8 +3299,9 @@ footer .footer_bottom {
 	display: block;
 	margin: auto;
 }
-.pagination a{
+.pagination a, .pull-right a {
 	color: gray;
+	font-size: 13px;
 	padding-left: 10px;
 	padding-right: 10px;
 	border: 1px solid gray;
@@ -3311,9 +3312,11 @@ footer .footer_bottom {
   	white-space: nowrap;
   	margin-bottom: 10px;
 }
-.pagination a:hover{
+.pagination a:hover, .pull-right a:hover{
 	background-color: gray;
 	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
 }
 .duoshuo {
 	width: 66%;
@@ -3330,7 +3333,7 @@ footer .footer_bottom {
 	text-overflow: ellipsis;
 }
 
-a:link {
+a {
 	text-decoration: none; 
 	color:#151515; 
 	font-size: 18px; 
