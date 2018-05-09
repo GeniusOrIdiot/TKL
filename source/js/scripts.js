@@ -188,3 +188,17 @@ $(document).ready(function($) {
 		}
 	});
 });
+
+$(document).ready(function($) {
+	$('.archives-year').off('click') // Stop submenu toggle from closing Slidebars.
+		.on('click', function() {
+			$submenu = $(this).parent().children('.sub-archives');
+			$(this).add($submenu).toggleClass('sub-archives-active'); // Toggle active class.
+
+			if ($submenu.hasClass('sub-archives-active')) {
+			$submenu.slideDown(200);
+			} else {
+			$submenu.slideUp(200);
+		}
+	});
+});

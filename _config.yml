@@ -4,7 +4,7 @@ logo: /img/logo.png
 top_saying:
 - title: <span>MDMORY</span>
 - content: 忆往传今
-bottom_saying: 鹰击长空，我游浅底。
+bottom_saying: 三尺微命，一介书生
 # Content
 excerpt_link: Read More
 
@@ -13,11 +13,11 @@ rss: /atom.xml
 highlightjs: vs
 
 #Works
-works:
-- works_name: AAA
-  works_url: /
-- works_name: BBB
-  works_url: /atom.xml
+# works:
+# - works_name: AAA
+#   works_url: /
+# - works_name: BBB
+#   works_url: /atom.xml
 
 #duoshuo name
 duoshuo:
@@ -26,7 +26,7 @@ duoshuo:
 disqus_shortname:
 
 #fancybox
-fancybox: true
+fancybox: false
 
 # Miscellaneous
 github: https://github.com/GeniusOrIdiot
